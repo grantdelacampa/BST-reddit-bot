@@ -28,7 +28,7 @@ def main():
     #       Database Access
     #-------------------------------------------------------------------
         
-    subreddit = reddit.subreddit('FashionRepsBST')
+    subreddit = reddit.subreddit('Subreddit Name')
 
     for template in subreddit.flair.templates:
         print(template)
